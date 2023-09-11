@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://sandev.wildfirelaboratories.com/bom/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Bom - SANDEVISTAN-DOCS</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
+        <link href="../extra.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">SANDEVISTAN-DOCS</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">USER GUIDE</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="https://wildfirelaboratories.com" class="nav-link">WILDFIRE SITE</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#support" class="nav-link">SUPPORT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#bom" class="nav-link">B.O.M.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#build-notes" class="nav-link">BUILD NOTES</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#board-images" class="nav-link">BOARD IMAGES</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><font size="7" face="Courier Prime"><i>WL-283 - "SANDEVISTAN"</i></font><br>
+<font size="5">MATERIALS GUIDE</font></p>
+<p><br>
+<img src="../lsns-mkdocs3.png" height="60%" width="60%">
+<br><br><br><br></p>
+<h1 id="support">SUPPORT</h1>
+<p>If any issues arise <a href="mailto:wildfirelaboratories@gmail.com"><strong>please click here to contact us via email first</strong></a>. We'll walk you through any problems you may be having (with the module). 
+<br><br><br><br></p>
+<h1 id="bom">B.O.M.</h1>
+<p>for <strong>v1.0</strong> boards 
+<br></p>
+<table>
+<thead>
+<tr>
+<th><strong>Part</strong></th>
+<th><strong>Value</strong></th>
+<th><strong>Qty.</strong></th>
+<th><strong>Link</strong></th>
+<th><strong>Notes</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1, C2</td>
+<td>10uF</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/10uf-25v-105c-electrolytic-capacitor-chang.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C5</td>
+<td>100nF</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/100nf-50v-smd-ceramic-chip-capacitor.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D1, D2</td>
+<td>1N4004</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/1n5817-diode-schottky-1a-20v.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D3, D4, D8, D9</td>
+<td>1N4148</td>
+<td>4</td>
+<td><a href="https://www.taydaelectronics.com/1n4148-switching-signal-diode.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D5, D6, D10, D12</td>
+<td>LEDs</td>
+<td>4</td>
+<td><a href="https://www.taydaelectronics.com/leds/round-leds/5mm-leds/led-5mm-red.html">red LEDs here</a></td>
+<td>any 5mm LEDs work, experiment!</td>
+<td></td>
+</tr>
+<tr>
+<td>IC1</td>
+<td>TL074</td>
+<td>1</td>
+<td><a href="https://www.taydaelectronics.com/tl074-quad-operational-amplifier-j-fet-soic-14-tl074cdt.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>L/R DIRT</td>
+<td>20kB</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/20k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html">here</a></td>
+<td>kurled shaft 9mm</td>
+<td></td>
+</tr>
+<tr>
+<td>L/R GAIN</td>
+<td>50kB</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/tayda-50k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R2 / R6 / R10 / R14</td>
+<td>1k</td>
+<td>4</td>
+<td><a href="https://www.taydaelectronics.com/resistors/smd-chip-resistors/0805/50-x-smd-chip-resistors-1-0k-ohm-1-8w-1-0805.html">here</a></td>
+<td>all resistors 0805, 1/8w SMD</td>
+<td></td>
+</tr>
+<tr>
+<td>R4 / R5 / R12 / R13</td>
+<td>2k</td>
+<td>4</td>
+<td><a href="https://www.taydaelectronics.com/resistors/smd-chip-resistors/0805/50-x-smd-chip-resistors-2-0k-ohm-1-8w-1-0805.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R8 / R15</td>
+<td>10k</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/resistors/smd-chip-resistors/0805/10k-ohm-smd-chip-resistors-1-8w-1-0805.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R3 / R11</td>
+<td>56k</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/resistors/smd-chip-resistors/0805/50-x-smd-chip-resistors-56k-ohm-1-8w-1-0805.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1 / R9</td>
+<td>100k</td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/resistors/smd-chip-resistors/0805/50-x-smd-chip-resistors-100k-ohm-1-8w-1-0805.html">here</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ALL JACKS</td>
+<td></td>
+<td>4</td>
+<td><a href="https://www.taydaelectronics.com/hardware/3-5mm-plugs-jacks/pj-3001f-3-5-mm-mono-phone-jack.html">here</a></td>
+<td>aka "Thonkiconn"</td>
+<td></td>
+</tr>
+<tr>
+<td>Euro Power pins</td>
+<td></td>
+<td>2 x 5</td>
+<td><a href="https://www.taydaelectronics.com/40-pin-2-54-mm-single-row-pin-header-strip.html">here</a></td>
+<td>2 rows of 5</td>
+<td></td>
+</tr>
+<tr>
+<td>Piezos</td>
+<td></td>
+<td>2</td>
+<td><a href="https://www.taydaelectronics.com/buzzers/piezo-electronic-tone-buzzer-20v-3-6-khz-with-lead-wire.html">here</a></td>
+<td>leave the lead wire on!</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br><br><br></p>
+<h1 id="build-notes">BUILD NOTES</h1>
+<p><br></p>
+<ul>
+<li>
+<p>Before powering on for the first time, <strong>check for
+shorts between the GND, +12, and -12 test points</strong>.</p>
+</li>
+<li>
+<p>Values for all parts will be on the board.</p>
+</li>
+<li>
+<p>The 3.5mm jacks are marked with their function (IN, OUT, etc) for easier troubleshooting. </p>
+</li>
+</ul>
+<p><br><br><br></p>
+<h1 id="board-images">BOARD IMAGES</h1>
+<p><br></p>
+<ul>
+<li><font size="6"><a href="../lsns-layout.png">PART LAYOUT</a></font></li>
+<li><font size="6"><a href="../lsns-pcb.png">BOARD IMAGE</a></font></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
